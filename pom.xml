@@ -62,6 +62,12 @@
              
     </distributionManagement>
 
+         <snapshotRepository>
+            <id>nexusRepo</id>
+            <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <finalName>myweb</finalName>
 
