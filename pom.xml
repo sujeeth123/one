@@ -35,22 +35,9 @@
     </dependencies>
 
     <repositories>
-                  <repository>
-                  <id>ArtifactFeed</id>
-                  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/ArtifactFeed/maven/v1</url>
-                  <releases>
-                           <enabled>true</enabled>
-                    </releases>
-                             <snapshots>
-                               <enabled>true</enabled>
-                             </snapshots>
-                  </repository>
-    </repositories>
-
-    <distributionManagement>
-            <repository>
-  <id>ArtifactFeed</id>
-  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/ArtifactFeed/maven/v1</url>
+                 <repository>
+  <id>SujeethFeed</id>
+  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/SujeethFeed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -58,10 +45,21 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-        <snapshotRepository>
-            <id>nexusRepo</id>
-            <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-        </snapshotRepository>
+             
+    </repositories>
+
+    <distributionManagement>
+            <repository>
+  <id>SujeethFeed</id>
+  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/SujeethFeed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+             
     </distributionManagement>
 
     <build>
