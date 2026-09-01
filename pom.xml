@@ -37,30 +37,30 @@
     <repositories>
 
              <repository>
-                    <id>FLM-Feed</id>
-                    <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM-Feed/maven/v1</url>
-                    <releases>
-                      <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                  <enabled>true</enabled>
-                    </snapshots>
-         </repository>
+  <id>FLM1-Feed</id>
+  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM1-Feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
              
     </repositories>
 
     <distributionManagement>
 
-             <repository>
-                    <id>FLM-Feed</id>
-                             <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM-Feed/maven/v1</url>
-                             <releases>
-                               <enabled>true</enabled>
-                             </releases>
-                             <snapshots>
-                               <enabled>true</enabled>
-                             </snapshots>
-                  </repository>
+            <repository>
+  <id>FLM1-Feed</id>
+  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM1-Feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
          
 
          <snapshotRepository>
