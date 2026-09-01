@@ -35,30 +35,32 @@
     </dependencies>
 
     <repositories>
-                 <repository>
-  <id>SujeethFeed</id>
-  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/SujeethFeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+
+             <repository>
+                    <id>FLM-Feed</id>
+                    <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM-Feed/maven/v1</url>
+                    <releases>
+                      <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                  <enabled>true</enabled>
+                    </snapshots>
+         </repository>
              
     </repositories>
 
     <distributionManagement>
-            <repository>
-  <id>SujeethFeed</id>
-  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/SujeethFeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+
+             <repository>
+                    <id>FLM-Feed</id>
+                             <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM-Feed/maven/v1</url>
+                             <releases>
+                               <enabled>true</enabled>
+                             </releases>
+                             <snapshots>
+                               <enabled>true</enabled>
+                             </snapshots>
+                  </repository>
          
 
          <snapshotRepository>
