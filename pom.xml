@@ -36,9 +36,9 @@
 
     <repositories>
 
-             <repository>
-  <id>FLM1-Feed</id>
-  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM1-Feed/maven/v1</url>
+            <repository>
+  <id>FLM2-Feed</id>
+  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM2-Feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -46,14 +46,15 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
+         
              
     </repositories>
 
     <distributionManagement>
 
-            <repository>
-  <id>FLM1-Feed</id>
-  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM1-Feed/maven/v1</url>
+          <repository>
+  <id>FLM2-Feed</id>
+  <url>https://pkgs.dev.azure.com/vaddisujeeth789/MyProject/_packaging/FLM2-Feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
